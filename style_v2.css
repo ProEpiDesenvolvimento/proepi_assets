@@ -1,0 +1,396 @@
+@charset "utf-8";
+
+/* CSS Document 
+
+table, tr, td {
+    border: 1px solid #000000;
+}
+*/
+
+/* Style the Image Used to Trigger the Modal */
+.myImg {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.myImg_artt:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal_artt {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  margin-top: 5%;
+  margin-left: -40%;
+  width: 80%; /* Full width */
+  height: 80%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.3); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modal-content_artt {
+    /*margin-left: 20%;*/
+    /* min-height: 10em; */
+    /* display: table-cell; */
+    vertical-align: middle;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    /* margin: auto; */
+    /* display: block; */
+    /* padding: 17%; */
+    /* max-width: 80%; */
+    width: 761px;
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content_artt, #caption {
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)}
+  to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+  from {transform:scale(0)}
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content_artt {
+      width: 100%;
+  }
+}
+
+table.tabelagrid_artt {
+  border: solid #DEEAf6 10px;
+  background-color: white;
+    shape-outside: border-box #DEEAf6;
+  background-clip: border-box;
+  border-radius: 50px 0px;
+  font-size: 16.0pt;
+  font-family: "Arial", sans-serif;
+  width: 100%;
+  margin-bottom: .5em;
+  border-spacing: 15px !important;
+  border-collapse: separate;
+}
+table.tabelaDest_artt {
+  border: solid windowtext 0pt;
+  font-size: 16.0pt;
+  font-family: "Arial", sans-serif;
+  width: 80%;
+  margin-bottom: .5em;
+  border-spacing: 15px !important;
+  border-collapse: separate;
+}
+p.Ttulo1artt {
+  text-align: justify;
+  font-size: 16.0pt;
+  font-family: "Arial", sans-serif;
+  font-weight: bold;
+}
+p.Ttulo11 {
+  line-height: 1.5;
+  font-size: 14.0pt;
+  font-family: "Arial", sans-serif;
+  font-weight: bold;
+}
+p.Boasvindas {
+  text-align: justify;
+  font-size: 16.0pt;
+   line-height: 1.5;  
+  font-family: "Arial", sans-serif;
+  color: black;
+}
+td.tb_artt ul li {
+  font-size: 16.0pt;
+  line-height: 1.5;
+}
+p.Fonte {
+  text-align: center;
+  font-size: 8.0pt;
+  font-family: "Arial", sans-serif;
+  color: black;
+}
+li.titulo_artt {
+  text-align: justify;
+  line-height: 1.5;
+  font-size: 20.0pt;
+  font-family: "Arial", sans-serif;
+  font-weight: 600;
+}
+p.txt {
+  margin: 0px;
+  text-align: justify;
+  line-height: 1.5;
+  font-size: 16.0pt;
+  font-family: "Arial", sans-serif;
+}
+
+td ul li {
+  margin: 0px;
+  text-align: justify;
+  line-height: 1.5;
+  font-size: 16.0pt;
+  font-family: "Arial", sans-serif;
+} 
+
+td ol li{
+  margin: 0px;
+  text-align: justify;
+  line-height: 1.5;
+  font-size: 16.0pt;
+  font-family: "Arial", sans-serif;
+}
+
+p.txtdesc {
+  margin: 15px 0px;
+    color: #B90000;
+  text-align: center;
+  line-height: 1.5;
+  font-size: 16.0pt;
+  font-family: "Arial", sans-serif;
+font-weight: bold;
+}
+
+p.txtFicaadica {
+  text-align: justify;
+  line-height: 1.5;
+  font-size: 12.0pt;
+  font-family: "Arial", sans-serif;
+}
+
+p.txtimportante {
+  text-align: justify;
+  line-height: 1.5;
+  font-size: 12.0pt;
+  font-family: "Arial", sans-serif;
+}
+
+p.txtSaibamais {
+  text-align: justify;
+  line-height: 1.5;
+  font-size: 12.0pt;
+  font-family: "Arial", sans-serif;
+}
+p.txtdestaque {
+  text-align: justify;
+  line-height: 1.5;
+  font-size: 12.0pt;
+  font-family: "Arial", sans-serif;
+}
+p.txtexemplo {
+  text-align: justify;
+  line-height: 1.5;
+  font-size: 12.0pt;
+  font-family: "Arial", sans-serif;
+}
+p.txtexercitando {
+  text-align: justify;
+  line-height: 1.5;
+  font-size: 16.0pt;
+  font-family: "Arial", sans-serif;
+}
+p.Ficaadica {
+  transform: rotate(-90deg);
+ -webkit-transform: rotate(-90deg);
+ font-weight: 900;
+}
+p.txttabela {
+  padding: 0px 0px 0px 8px;
+  line-height: 1.5;
+  font-size: 11.0pt;
+  font-family: "Arial", sans-serif;
+}
+p.txtreferencia {
+  text-align: justify;
+  line-height: 1.5;
+  foSnt-size: 14.0pt;
+  font-family: "Arial", sans-serif;
+  font-style: italic;
+}
+p.txttabela8 {
+  padding: 10px;
+  line-height: 1.5;
+  font-size: 8.0pt;
+  font-family: "Arial", sans-serif;
+
+}
+p.txtlistbullets {
+  padding-left: 20px;
+  line-height: 1.5;
+  font-size: 14.0pt;
+  font-family: "Arial", sans-serif;
+  color: black;
+}
+p.txtlistbulletsCxSpMiddle {
+  margin-top: 0cm;
+  margin-right: 0cm;
+  margin-bottom: .0001pt;
+  margin-left: 18.0pt;
+  line-height: 1.5;
+  font-size: 12.0pt;
+  font-family: "Arial", sans-serif;
+  color: black;
+}
+p.txtlistbulletsCxSpLast {
+  margin-top: 0cm;
+  margin-right: 0cm;
+  margin-bottom: .0001pt;
+  margin-left: 18.0pt;
+  line-height: 1.5;
+  font-size: 12.0pt;
+  font-family: "Arial", sans-serif;
+  color: black;
+}
+.tb_artt {
+    
+  border-radius: 50px 0px;
+  padding: 20px 10px 0px 25px!important;
+}
+
+.idSm {
+    border-bottom: solid 10px #E8BB00;
+    border-top: solid 10px #E8BB00;
+    
+}
+
+.tb_artt_desc {
+  border-radius: 0px 50px;
+  /*  border: aqua solid 20px;*/
+    border-top: solid 10px #0078A3 !important;
+    border-bottom: solid 10px #0078A3 !important;
+    
+  background-color: #F5F5F5;
+  padding: 20px 0px;
+}
+.txttbvert {
+    transform: rotate(-90deg);
+ -webkit-transform: rotate(-90deg);
+    color: white
+}
+
+.tab_tex {
+    padding: 10px;
+}
+
+.txttb01 {
+    margin: 0px;
+  text-align: right;
+  line-height: 1.5;
+  font-size: 16.0pt;
+  font-family: "Arial", sans-serif;
+    font-weight: bold;
+}
+
+.txttb03 {
+        margin: 0px;
+  text-align: right;
+  line-height: 1.5;
+  font-size: 16.0pt;
+  font-family: "Arial", sans-serif;
+}
+
+.txttb02 {
+        margin: 0px;
+  text-align: left;
+  line-height: 1.5;
+  font-size: 16.0pt;
+  font-family: "Arial", sans-serif;
+}
+
+.tbdestaque {
+    border-collapse: separate !important;
+
+}
+
+table.tbdestaque  tr td {
+    border: 5px solid #FFFFFF;
+}
+
+.tb_artt_Saibamais {
+    border-radius: 0px 50px;
+  /*  border: aqua solid 20px;*/
+    border-top: solid 10px #FFC00B  !important;
+    border-bottom: solid 10px #FFC00B !important;
+    
+  background-color: #FFF8E6;
+  padding: 20px 0px; 
+}
+
+.tb_artt_exercitando {
+  border-radius: 0px 50px;
+/*  border: aqua solid 20px;*/
+  border-top: solid 20px #10862B  !important;
+  border-bottom: solid 10px #10862B !important;
+  
+background-color: #FFFfff;
+padding: 20px 0px; 
+}
+
+.tb_artt_ficaadica {
+    border-radius: 0px 50px;
+  /*  border: aqua solid 20px;*/
+    border-top: solid 10px #910D96  !important;
+    border-bottom: solid 10px #910D96 !important;
+    
+  background-color: #FAEFFB;
+  padding: 20px 0px; 
+}
+
+
+
+p.txtPararefletir {
+    text-align: justify;
+  line-height: 1.5;
+  font-size: 12.0pt;
+  font-family: "Arial", sans-serif;
+}
+
+.txttb_w {
+color: #FFFFFF !important;
+}
+
