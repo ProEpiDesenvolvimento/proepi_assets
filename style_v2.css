@@ -14,7 +14,7 @@ table, tr, td {
   transition: 0.3s;
 }
 
-.myImg_artt:hover {opacity: 0.7;}
+.myImg:hover {opacity: 0.7;}
 
 /* The Modal (background) */
 .modal_artt {
