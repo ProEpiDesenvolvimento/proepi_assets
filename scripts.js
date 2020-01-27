@@ -53,7 +53,7 @@ span.onclick = function() {
 }
 }
 
-function loadCSS(url) {
+/*function loadCSS(url) {
   var lnk = document.createElement('link');
   lnk.setAttribute('type', "text/css" );
   lnk.setAttribute('rel', "stylesheet" );
@@ -64,7 +64,7 @@ function loadCSS(url) {
 }
 
 
- loadCSS(URL)
+ loadCSS(URL)*/
 
 
  
