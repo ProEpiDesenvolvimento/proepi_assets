@@ -80,7 +80,7 @@ table, tr, td {
 }
 
 /* The Close Button */
-.close {
+.close_artt {
   position: absolute;
   top: 15px;
   right: 35px;
@@ -90,8 +90,8 @@ table, tr, td {
   transition: 0.3s;
 }
 
-.close:hover,
-.close:focus {
+.close_artt:hover,
+.close_artt:focus {
   color: #bbb;
   text-decoration: none;
   cursor: pointer;
