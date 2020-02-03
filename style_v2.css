@@ -104,6 +104,29 @@ table, tr, td {
   }
 }
 
+table.tabela_landia_artt{
+    shape-outside: border-box #DEEAf6;
+  background-clip: border-box;
+  font-size: 12.0pt;
+  font-family: "Arial", sans-serif;
+  width: 100%;
+  margin-bottom: .5em;
+  border-spacing: 15px !important;
+  border-collapse: separate;
+}
+
+table.tabela_in_artt {
+    shape-outside: border-box #DEEAf6;
+  background-clip: border-box;
+  font-size: 12.0pt;
+  font-family: "Arial", sans-serif;
+  width: 100%;
+  margin-bottom: .5em;
+  border-spacing: 15px !important;
+  border-collapse: separate;
+}
+
+
 table.tabelagrid_artt {
   border: solid #DEEAf6 10px;
   background-color: white;
@@ -379,6 +402,16 @@ padding: 20px 0px;
     
   background-color: #FAEFFB;
   padding: 20px 0px; 
+}
+
+.tb_artt_importante {
+  border-radius: 0px 50px;
+/*  border: aqua solid 20px;*/
+  border-top: solid 10px rgb(150, 13, 13)6  !important;
+  border-bottom: solid 10px rgb(150, 13, 13) !important;
+  
+background-color: rgb(251, 239, 239);
+padding: 20px 0px; 
 }
 
 
