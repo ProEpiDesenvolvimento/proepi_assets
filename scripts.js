@@ -72,7 +72,7 @@ $(document).ready(function(){
     $('html, body').animate({scrollTop: $('#'+id).offset().top}, 500);
     $("#"+id).hide("slow");
   });
-      $( ".booknext" ).hide();
+      //$( ".booknext" ).hide();
       $('.botao').last().on("click", function(e) {               
         $( ".booknext" ).show();
           $( ".booknext" ).addClass( "btn btn-primary" );
