@@ -329,6 +329,8 @@ p.txtlistbulletsCxSpLast {
   border-bottom: solid 10px #0078A3 !important;
   background-color: #F5F5F5;
   padding: 20px 0px;
+  border-collapse: unset!important;
+
 }
 .txttbvert {
     transform: rotate(-90deg);
