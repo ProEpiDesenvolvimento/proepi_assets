@@ -271,9 +271,10 @@ p.txttabela {
 p.txtreferencia {
   text-align: justify;
   line-height: 1.5;
-  foSnt-size: 14.0pt;
+  foSnt-size: 12.0pt !important;
   font-family: "Arial", sans-serif;
-  font-style: italic;
+  font-style: italic!important;
+    padding-left: 40px!important;
 }
 p.txttabela8 {
   padding: 10px;
@@ -397,7 +398,7 @@ padding: 20px 0px;
     border-top: solid 10px #910D96  !important;
     border-bottom: solid 10px #910D96 !important;
     
-  background-color: #FAEFFB;
+  background-color: #FAEFFB !important;
   padding: 20px 0px; 
 }
 
@@ -407,7 +408,18 @@ padding: 20px 0px;
   border-top: solid 10px rgb(150, 13, 13)6  !important;
   border-bottom: solid 10px rgb(150, 13, 13) !important;
   
-background-color: rgb(251, 239, 239);
+background-color: rgb(251, 239, 239)!important;
+padding: 20px 0px; 
+}
+
+
+.tb_artt_destaque {
+  border-radius: 0px 50px;
+/*  border: aqua solid 20px;*/
+  border-top: solid 10px rgb(206,76,0)  !important;
+  border-bottom: solid 10px rgb(206,76,0) !important;
+  
+background-color: rgb(255,243,234) !important;
 padding: 20px 0px; 
 }
 
@@ -428,6 +440,7 @@ color: #FFFFFF !important;
 	font-family: "Arial", sans-serif;
 	font-size: 14px;
 	color: #00000;
+    float: right;
 	padding: 10px 20px;
 	background: -webkit-gradient(
 		linear, left top, left bottom,
