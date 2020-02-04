@@ -322,11 +322,9 @@ p.txtlistbulletsCxSpLast {
 }
 
 .tb_artt_desc {
-  border-radius: 0px 50px;
-  /*  border: aqua solid 20px;*/
-    border-top: solid 10px #0078A3 !important;
-    border-bottom: solid 10px #0078A3 !important;
-    
+  border-radius: 0px 50px !important;
+  border-top: solid 10px #0078A3 !important;
+  border-bottom: solid 10px #0078A3 !important;
   background-color: #F5F5F5;
   padding: 20px 0px;
 }
