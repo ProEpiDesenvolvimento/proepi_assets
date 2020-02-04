@@ -323,13 +323,17 @@ p.txtlistbulletsCxSpLast {
     
 }
 
+table {
+    border-collapse: unset!important;
+}
+
 .tb_artt_desc {
   border-radius: 0px 50px !important;
   border-top: solid 10px #0078A3 !important;
   border-bottom: solid 10px #0078A3 !important;
   background-color: #F5F5F5;
   padding: 20px 0px;
-  border-collapse: unset!important;
+  /*border-collapse: unset!important;*/
 
 }
 .txttbvert {
