@@ -187,7 +187,7 @@ li.titulo_artt {
 }
 p.txt {
   margin: 0px;
-    padding-top: 6px;
+    padding-top: 12px;
   text-align: justify;
   line-height: 1.5;
   font-size: 16.0pt;
@@ -424,7 +424,15 @@ background-color: rgb(255,243,234) !important;
 padding: 20px 0px; 
 }
 
-
+ .tb_artt_exemplo {
+ border-radius: 0px 50px;
+/* border: aqua solid 20px;*/
+ border-top: solid 10px rgba(185,0,144,1.00) !important;
+ border-bottom: solid 10px rgba(185,0,144,1.00) !important;
+ 
+background-color: rgba(255,234,247,1.00) !important;
+padding: 20px 0px; 
+}
 
 p.txtPararefletir {
     text-align: justify;
