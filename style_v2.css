@@ -1,21 +1,19 @@
 @charset "utf-8";
-
 /* CSS Document 
 
 table, tr, td {
     border: 1px solid #000000;
 }
 */
-
 /* Style the Image Used to Trigger the Modal */
 .myImg {
   border-radius: 5px;
   cursor: pointer;
   transition: 0.3s;
 }
-
-.myImg:hover {opacity: 0.7;}
-
+.myImg:hover {
+  opacity: 0.7;
+}
 /* The Modal (background) */
 .modal_artt {
   display: none; /* Hidden by default */
@@ -26,29 +24,27 @@ table, tr, td {
   width: 80%; /* Full width */
   height: 80%; /* Full height */
   overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.3); /* Black w/ opacity */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.3); /* Black w/ opacity */
 }
-
 /* Modal Content (Image) */
 .modal-content_artt {
-    /*margin-left: 20%;*/
-    /* min-height: 10em; */
-    /* display: table-cell; */
-    vertical-align: middle;
-    justify-content: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
-    /* margin: auto; */
-    /* display: block; */
-    /* padding: 17%; */
-    /* max-width: 80%; */
-    width: 761px;
+  /*margin-left: 20%;*/
+  /* min-height: 10em; */
+  /* display: table-cell; */
+  vertical-align: middle;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  /* margin: auto; */
+  /* display: block; */
+  /* padding: 17%; */
+  /* max-width: 80%; */
+  width: 761px;
 }
-
 /* Caption of Modal Image (Image Text) - Same Width as the Image */
 #caption {
   margin: auto;
@@ -60,7 +56,6 @@ table, tr, td {
   padding: 10px 0;
   height: 150px;
 }
-
 /* Add Animation - Zoom in the Modal */
 .modal-content_artt, #caption {
   -webkit-animation-name: zoom;
@@ -68,17 +63,22 @@ table, tr, td {
   animation-name: zoom;
   animation-duration: 0.6s;
 }
-
 @-webkit-keyframes zoom {
-  from {-webkit-transform:scale(0)}
-  to {-webkit-transform:scale(1)}
+  from {
+    -webkit-transform: scale(0)
+  }
+  to {
+    -webkit-transform: scale(1)
+  }
 }
-
 @keyframes zoom {
-  from {transform:scale(0)}
-  to {transform:scale(1)}
+  from {
+    transform: scale(0)
+  }
+  to {
+    transform: scale(1)
+  }
 }
-
 /* The Close Button */
 .close_artt {
   position: absolute;
@@ -89,23 +89,19 @@ table, tr, td {
   font-weight: bold;
   transition: 0.3s;
 }
-
-.close_artt:hover,
-.close_artt:focus {
+.close_artt:hover, .close_artt:focus {
   color: #bbb;
   text-decoration: none;
   cursor: pointer;
 }
-
 /* 100% Image Width on Smaller Screens */
-@media only screen and (max-width: 700px){
+@media only screen and (max-width: 700px) {
   .modal-content_artt {
-      width: 100%;
+    width: 100%;
   }
 }
-
-table.tabela_landia_artt{
-    shape-outside: border-box #DEEAf6;
+table.tabela_landia_artt {
+  shape-outside: border-box #DEEAf6;
   background-clip: border-box;
   font-size: 12.0pt;
   font-family: "Arial", sans-serif;
@@ -114,23 +110,20 @@ table.tabela_landia_artt{
   border-spacing: 15px !important;
   border-collapse: separate;
 }
-
 .tabela_in_artt {
-shape-outside: border-box #DEEAf6;
+  shape-outside: border-box #DEEAf6;
   background-clip: border-box;
   font-size: 10.0pt !important;
   font-family: "Arial", sans-serif;
   width: 100%;
   margin-bottom: .5em;
   border-spacing: 15px !important;
- /* border-collapse: separate;*/
+  /* border-collapse: separate;*/
 }
-
-
 table.tabelagrid_artt {
   border: solid #DEEAf6 10px;
   background-color: white;
-    shape-outside: border-box #DEEAf6;
+  shape-outside: border-box #DEEAf6;
   background-clip: border-box;
   border-radius: 50px 0px;
   font-size: 16.0pt;
@@ -164,7 +157,7 @@ p.Ttulo11 {
 p.Boasvindas {
   text-align: justify;
   font-size: 16.0pt;
-   line-height: 1.5;  
+  line-height: 1.5;
   font-family: "Arial", sans-serif;
   color: black;
 }
@@ -187,53 +180,47 @@ li.titulo_artt {
 }
 p.txt {
   margin: 0px;
-    padding-top: 12px;
+  padding-top: 12px;
   text-align: justify;
   line-height: 1.5;
   font-size: 16.0pt;
   font-family: "Arial", sans-serif;
 }
-
 td ul li {
   margin: 0px;
   text-align: justify;
   line-height: 1.5;
   font-size: 16.0pt;
   font-family: "Arial", sans-serif;
-} 
-
-td ol li{
+}
+td ol li {
   margin: 0px;
   text-align: justify;
   line-height: 1.5;
   font-size: 16.0pt;
   font-family: "Arial", sans-serif;
 }
-
 p.txtdesc {
   margin: 15px 0px;
-    color: #B90000;
+  color: #B90000;
   text-align: center;
   line-height: 1.5;
   font-size: 16.0pt;
   font-family: "Arial", sans-serif;
-font-weight: bold;
+  font-weight: bold;
 }
-
 p.txtFicaadica {
   text-align: justify;
   line-height: 1.5;
   font-size: 12.0pt;
   font-family: "Arial", sans-serif;
 }
-
 p.txtimportante {
   text-align: justify;
   line-height: 1.5;
   font-size: 12.0pt;
   font-family: "Arial", sans-serif;
 }
-
 p.txtSaibamais {
   text-align: justify;
   line-height: 1.5;
@@ -260,8 +247,8 @@ p.txtexercitando {
 }
 p.Ficaadica {
   transform: rotate(-90deg);
- -webkit-transform: rotate(-90deg);
- font-weight: 900;
+  -webkit-transform: rotate(-90deg);
+  font-weight: 900;
 }
 p.txttabela {
   padding: 0px 0px 0px 8px;
@@ -274,15 +261,14 @@ p.txtreferencia {
   line-height: 1.5;
   foSnt-size: 12.0pt !important;
   font-family: "Arial", sans-serif;
-  font-style: italic!important;
-    padding-left: 40px!important;
+  font-style: italic !important;
+  padding-left: 40px !important;
 }
 p.txttabela8 {
   padding: 10px;
   line-height: 1.5;
   font-size: 8.0pt;
   font-family: "Arial", sans-serif;
-
 }
 p.txtlistbullets {
   padding-left: 20px;
@@ -312,21 +298,19 @@ p.txtlistbulletsCxSpLast {
   color: black;
 }
 .tb_artt {
-    
   border-radius: 50px 0px;
-  padding: 20px 10px 0px 25px!important;
+  padding: 20px 10px 0px 25px !important;
 }
-
 .idSm {
-    border-bottom: solid 10px #E8BB00;
-    border-top: solid 10px #E8BB00;
-    
+  border-bottom: solid 10px #E8BB00;
+  border-top: solid 10px #E8BB00;
 }
-
+table {
+  border-collapse: unset !important;
+}
 table {
     border-collapse: unset!important;
 }
-
 .tb_artt_desc {
   border-radius: 0px 50px !important;
   border-top: solid 10px #0078A3 !important;
@@ -334,124 +318,128 @@ table {
   background-color: #F5F5F5;
   padding: 20px 0px;
   /*border-collapse: unset!important;*/
-
 }
 .txttbvert {
-    transform: rotate(-90deg);
- -webkit-transform: rotate(-90deg);
-    color: white
+  transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+  color: white
 }
-
 .tab_tex {
-    padding: 10px;
+  padding: 10px;
 }
-
 .txttb01 {
-    margin: 0px;
+  margin: 0px;
   text-align: right;
   line-height: 1.5;
- font-weight: bold;
-    padding: 4px 4px 4px 8px;
+  font-weight: bold;
+  padding: 4px 4px 4px 8px;
 }
-
 .txttb03 {
-        margin: 0px;
+  margin: 0px;
   text-align: right;
   line-height: 1.5;
-    padding: 4px 4px 4px 8px;
- 
+  padding: 4px 4px 4px 8px;
 }
-
 .txttb02 {
-        margin: 0px;
+  margin: 0px;
   text-align: left;
   line-height: 1.5;
-    padding: 4px 8px 4px 4px;
- 
+  padding: 4px 8px 4px 4px;
 }
-
 .tbdestaque {
-    border-collapse: separate !important;
-
+  border-collapse: separate !important;
 }
-
-table.tbdestaque  tr td {
-    border: 5px solid #FFFFFF;
+table.tbdestaque tr td {
+  border: 5px solid #FFFFFF;
 }
-
 .tb_artt_Saibamais {
-    border-radius: 0px 50px;
+  border-radius: 0px 50px;
   /*  border: aqua solid 20px;*/
-    border-top: solid 10px #FFC00B  !important;
-    border-bottom: solid 10px #FFC00B !important;
-    
+  border-top: solid 10px #FFC00B !important;
+  border-bottom: solid 10px #FFC00B !important;
   background-color: #FFF8E6;
-  padding: 20px 0px; 
+  padding: 20px 0px;
 }
-
 .tb_artt_exercitando {
   border-radius: 0px 50px;
-/*  border: aqua solid 20px;*/
-  border-top: solid 20px #10862B  !important;
-  border-bottom: solid 10px #10862B !important;
-  
-background-color: #FFFfff;
-padding: 20px 0px; 
-}
-
-.tb_artt_ficaadica {
-    border-radius: 0px 50px;
   /*  border: aqua solid 20px;*/
-    border-top: solid 10px #910D96  !important;
-    border-bottom: solid 10px #910D96 !important;
-    
-  background-color: #FAEFFB !important;
-  padding: 20px 0px; 
+  border-top: solid 20px #10862B !important;
+  border-bottom: solid 10px #10862B !important;
+  background-color: #FFFfff;
+  padding: 20px 0px;
 }
-
+.tb_artt_ficaadica {
+  border-radius: 0px 50px;
+  /*  border: aqua solid 20px;*/
+  border-top: solid 10px #910D96 !important;
+  border-bottom: solid 10px #910D96 !important;
+  background-color: #FAEFFB !important;
+  padding: 20px 0px;
+}
 .tb_artt_importante {
   border-radius: 0px 50px;
-/*  border: aqua solid 20px;*/
-  border-top: solid 10px rgb(150, 13, 13)  !important;
+  /*  border: aqua solid 20px;*/
+  border-top: solid 10px rgb(150, 13, 13) !important;
   border-bottom: solid 10px rgb(150, 13, 13) !important;
-  
-background-color: rgb(251, 239, 239)!important;
-padding: 20px 0px; 
+  background-color: rgb(251, 239, 239) !important;
+  padding: 20px 0px;
 }
-
-
 .tb_artt_destaque {
   border-radius: 0px 50px;
-/*  border: aqua solid 20px;*/
-  border-top: solid 10px rgb(206,76,0)  !important;
-  border-bottom: solid 10px rgb(206,76,0) !important;
-  
-background-color: rgb(255,243,234) !important;
-padding: 20px 0px; 
+  /*  border: aqua solid 20px;*/
+  border-top: solid 10px rgb(206, 76, 0) !important;
+  border-bottom: solid 10px rgb(206, 76, 0) !important;
+  background-color: rgb(255, 243, 234) !important;
+  padding: 20px 0px;
 }
-
- .tb_artt_exemplo {
- border-radius: 0px 50px;
-/* border: aqua solid 20px;*/
- border-top: solid 10px rgba(185,0,144,1.00) !important;
- border-bottom: solid 10px rgba(185,0,144,1.00) !important;
- 
-background-color: rgba(255,234,247,1.00) !important;
-padding: 20px 0px; 
+.tb_artt_exemplo {
+  border-radius: 0px 50px;
+  /* border: aqua solid 20px;*/
+  border-top: solid 10px rgba(185, 0, 144, 1.00) !important;
+  border-bottom: solid 10px rgba(185, 0, 144, 1.00) !important;
+  background-color: rgba(255, 234, 247, 1.00) !important;
+  padding: 20px 0px;
 }
-
+.tb_artt_pararefletir {
+  border-radius: 0px 50px;
+  /* border: aqua solid 20px;*/
+  border-top: solid 10px rgba(141, 0, 160, 1.00) !important;
+  border-bottom: solid 10px rgba(141, 0, 160, 1.00) !important;
+  background-color: rgba(255, 234, 253, 1.00) !important;
+  padding: 20px 0px;
+}
+.tb_col_1 {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 0px 20px;
+}
 p.txtPararefletir {
-    text-align: justify;
+  text-align: justify;
   line-height: 1.5;
   font-size: 12.0pt;
   font-family: "Arial", sans-serif;
 }
-
 .txttb_w {
-color: #FFFFFF !important;
+  color: #FFFFFF !important;
 }
-
 .artt_btn {
+  font-family: "Arial", sans-serif;
+  font-size: 14px;
+  color: #00000;
+  float: right;
+  padding: 10px 20px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ffba0a), to(#e08e00));
+  background: linear-gradient(top, #ffba0a 0%, #e08e00);
+  border-radius: 10px;
+  border: 0px solid #ffffff;
+  box-shadow:
+    0px 1px 3px rgba(000, 000, 000, 0.3), inset 0px 0px 1px rgba(255, 255, 255, 0);
+  text-shadow:
+    0px -1px 0px rgba(000, 000, 000, 0.7), 0px 1px 0px rgba(255, 255, 255, 0.3);
+}
+=======
 	font-family: "Arial", sans-serif;
 	font-size: 14px;
 	color: #00000;
