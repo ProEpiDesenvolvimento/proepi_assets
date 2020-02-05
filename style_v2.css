@@ -16,34 +16,26 @@ table, tr, td {
 }
 /* The Modal (background) */
 .modal_artt {
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
-  margin-top: 5%;
-  margin-left: -40%;
-  width: 80%; /* Full width */
-  height: 80%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0, 0, 0); /* Fallback color */
-  background-color: rgba(0, 0, 0, 0.3); /* Black w/ opacity */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    position: fixed;
+    z-index: 1;
+    width: 80%;
+    height: 80%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.3);
 }
 /* Modal Content (Image) */
 .modal-content_artt {
-  /*margin-left: 20%;*/
-  /* min-height: 10em; */
-  /* display: table-cell; */
-  vertical-align: middle;
-  justify-content: center;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%);
-  /* margin: auto; */
-  /* display: block; */
-  /* padding: 17%; */
-  /* max-width: 80%; */
-  width: 761px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 90%;
+    max-height: 90%;
 }
 /* Caption of Modal Image (Image Text) - Same Width as the Image */
 #caption {
