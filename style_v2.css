@@ -31,7 +31,7 @@ body.modal-open {
     height: 80%;
     overflow: auto;
     background-color: rgb(0, 0, 0);
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: #E3E3E3;
 }
 /* Modal Content (Image) */
 .modal-content_artt {
@@ -99,7 +99,7 @@ body.modal-open {
   }
 }
 table.tabela_landia_artt {
-  shape-outside: border-box #DEEAf6;
+  
   background-clip: border-box;
   font-size: 12.0pt;
   font-family: "Arial", sans-serif;
@@ -107,6 +107,9 @@ table.tabela_landia_artt {
   margin-bottom: .5em;
   border-spacing: 15px !important;
   border-collapse: separate;
+    color: #FFFFFF;
+    background-color: #490048;
+    border-radius: 50px;
 }
 .tabela_in_artt {
   shape-outside: border-box #DEEAf6;
