@@ -6,6 +6,11 @@ table, tr, td {
 }
 */
 /* Style the Image Used to Trigger the Modal */
+body.modal-open {
+  height: 100vh;
+  overflow-y: hidden;
+}
+
 .myImg {
   border-radius: 5px;
   cursor: pointer;
@@ -36,6 +41,7 @@ table, tr, td {
     transform: translate(-50%, -50%);
     max-width: 90%;
     max-height: 90%;
+    height: 100%;
 }
 /* Caption of Modal Image (Image Text) - Same Width as the Image */
 #caption {
