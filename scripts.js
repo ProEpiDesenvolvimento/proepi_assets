@@ -62,9 +62,23 @@ function loadCSS(url) {
   document.getElementsByTagName("head").item(0).appendChild(lnk);
   
 }
+loadCSS(URL)
 
-
- loadCSS(URL)
+$(document).ready(function(){
+  $('.botao').on("click", function(e) {
+    e.preventDefault();
+    var id = this.id;
+    $("#rev"+id).show("slow");
+    $('html, body').animate({scrollTop: $('#'+id).offset().top}, 500);
+    $("#"+id).hide("slow");
+  });
+      //$( ".booknext" ).hide();
+      $('.botao').last().on("click", function(e) {               
+        $( ".booknext" ).show();
+          $( ".booknext" ).addClass( "btn btn-primary" );
+          $( ".booknext > .icon" ).css("color", "#fff");
+      }); 
+});
 
 
  
