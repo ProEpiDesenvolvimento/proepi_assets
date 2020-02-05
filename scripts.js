@@ -69,7 +69,7 @@ $(document).ready(function(){
     e.preventDefault();
     var id = this.id;
     $("#rev"+id).show("slow");
-    $('html, body').animate({scrollTop: $('#'+id).offset().top}, 500);
+    $('html, body').animate({scrollTop: $('#'+id).offset().top-100}, 500);
     $("#"+id).hide("slow");
   });
       //$( ".booknext" ).hide();
