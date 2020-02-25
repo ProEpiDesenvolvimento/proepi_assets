@@ -68,7 +68,7 @@ $(document).ready(function(){
   $('.botao').on("click", function(e) {
     e.preventDefault();
     var id = this.id;
-    $("#rev"+id).show("slow");
+    $(".rev"+id).show("slow");
     $('html, body').animate({scrollTop: $('#'+id).offset().top-100}, 500);
     $("#"+id).hide("slow");
   });
