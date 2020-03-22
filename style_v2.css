@@ -144,7 +144,7 @@ table.tabelaDest_artt {
   border-spacing: 15px !important;
   border-collapse: separate;
 }
-td.ttulotabela {
+table tr td p.ttulotabela {
   font-size: large;
   color: #ffffff;
   font-weight: bold;
