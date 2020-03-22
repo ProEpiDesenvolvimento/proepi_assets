@@ -144,6 +144,12 @@ table.tabelaDest_artt {
   border-spacing: 15px !important;
   border-collapse: separate;
 }
+td.ttulotabela {
+  font-size: large;
+  color: #ffffff;
+  font-weight: bold;
+}
+
 p.Ttulo1artt {
   text-align: justify;
   font-size: 16.0pt;
