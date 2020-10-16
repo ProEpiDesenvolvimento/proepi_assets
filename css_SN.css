@@ -323,9 +323,14 @@
 	  transition: all .2s linear;
 	  color: #F4F4F9;
 	}
-	.artt_barra_menu_nav {
+
+	.artt_barra_menu_position {
 	  margin-top: -10px !important;
-	  position: fixed;
+	  position: absolute;
+	}
+
+	.artt_barra_menu_nav {
+		 position: fixed;
 	  width: 100%;
 	  height: 60px;
 	  top: 10px;
