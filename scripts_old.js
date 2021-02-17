@@ -20,6 +20,7 @@ function loadDIV() {
   InsertDIV.appendChild(InsertSPAN);
   InsertDIV.appendChild(InsertIMG);
 }
+ 
 
  loadDIV()
  
